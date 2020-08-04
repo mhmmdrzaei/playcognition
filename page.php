@@ -61,7 +61,7 @@
         ?> 
     </section>
     <section class="phases phaseFour" id="phasesFour">
-    <h2 class="en">Phase 4 - Finall Installation in Room</h2>
+    <h2 class="en">Phase 4 - Final Installation in Room</h2>
     <h2 class="fa">مرحله ۴ - سازه در اتاق </h2>
       <?php $args = array( 'post_type' => 'post', 'cat' => 6, 'order' => 'DCS', 'posts_per_page' => -1 );
         query_posts( $args ); // hijack the main loop

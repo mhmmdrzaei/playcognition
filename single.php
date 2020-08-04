@@ -52,7 +52,7 @@
   </div>
 </div>
 <div class="toggle">  
-  <h4 class="en toggle-trigger"><i class="far fa-folder"></i> Phase 4 - Finall Installation in Room</h4>
+  <h4 class="en toggle-trigger"><i class="far fa-folder"></i> Phase 4 - Final Installation in Room</h4>
   <div class="phaseFour toggle-content">
     <?php $args = array( 'post_type' => 'post', 'cat' => 6, 'order' => 'DCS', 'posts_per_page' => -1 );
       query_posts( $args ); // hijack the main loop
