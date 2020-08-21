@@ -65,7 +65,6 @@
       <?php
       wp_reset_query();
       ?> 
-      <p>coming soon</p>
   </div>
 </div>
 <div class="toggle">  
@@ -166,7 +165,6 @@
       <?php
       wp_reset_query();
       ?> 
-      <p>coming soon</p>
   </div>
 </div>
 <div class="toggle">  

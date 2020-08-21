@@ -74,7 +74,6 @@
         <?php
         wp_reset_query();
         ?> 
-        <p>coming soon</p>
     </section>
     <section class="phases phaseFive" id="phasesFive">
     <h2 class="en">Phase 5 - Bazaar Art Book Fair</h2>
