@@ -105,7 +105,6 @@
         <?php
         wp_reset_query();
         ?> 
-        <p>coming soon</p>
     </section>
 </section>
 <?php endwhile; // end the loop?>

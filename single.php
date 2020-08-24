@@ -97,7 +97,6 @@
       <?php
       wp_reset_query();
       ?> 
-      <p>coming soon</p>
   </div>
 </div>
   
@@ -197,7 +196,6 @@
       <?php
       wp_reset_query();
       ?> 
-      <p>coming soon</p>
   </div>
 </div>
   
