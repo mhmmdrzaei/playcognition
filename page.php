@@ -2,6 +2,9 @@
 
 <section class="Main"id="Main" aria-label="Brief Project Description">
   <?php // Start the loop ?>
+  <section class="egretNEW scroll-left">
+    <a href="/egret">New Project in Partnership with Egret Egress Gallery In Toronto! Play here! </a>
+  </section>
   <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
   <div class="maintext en">
      <?php the_content(); ?>
