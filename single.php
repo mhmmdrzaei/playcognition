@@ -99,6 +99,22 @@
       ?> 
   </div>
 </div>
+<div class="toggle">  
+  <h4 class="en toggle-trigger"><i class="far fa-folder"></i> Phase 7 - Exhibition at Egret Egress Gallery</h4>
+  <div class="phaseSix toggle-content">
+    <?php $args = array( 'post_type' => 'post', 'cat' => 8, 'order' => 'DCS', 'posts_per_page' => -1 );
+      query_posts( $args ); // hijack the main loop
+      while ( have_posts() ) : the_post();
+        ?>
+     <a class='toggleText' href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+       <?php
+      endwhile;
+      ?>
+      <?php
+      wp_reset_query();
+      ?> 
+  </div>
+</div>
   
 </section>
 <section class="secondaryMenu fa smfa">
@@ -186,6 +202,22 @@
   <h4 class="fa toggle-trigger"><i class="far fa-folder"></i> مرحله ۶ - در فضای عمومی</h4>
   <div class="phaseSix emFA toggle-content">
     <?php $args = array( 'post_type' => 'post', 'cat' => 7, 'order' => 'DCS', 'posts_per_page' => -1 );
+      query_posts( $args ); // hijack the main loop
+      while ( have_posts() ) : the_post();
+        ?>
+     <a class='toggleText' href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+       <?php
+      endwhile;
+      ?>
+      <?php
+      wp_reset_query();
+      ?> 
+  </div>
+</div>
+<div class="toggle">  
+  <h4 class="fa toggle-trigger"><i class="far fa-folder"></i> مرحله ۷ -  در گالری Egret Egress</h4>
+  <div class="phaseSix emFA toggle-content">
+    <?php $args = array( 'post_type' => 'post', 'cat' => 8, 'order' => 'DCS', 'posts_per_page' => -1 );
       query_posts( $args ); // hijack the main loop
       while ( have_posts() ) : the_post();
         ?>

@@ -3,7 +3,7 @@
 <section class="Main"id="Main" aria-label="Brief Project Description">
   <?php // Start the loop ?>
   <section class="egretNEW scroll-left">
-    <a href="/egret">New Project in Partnership with Egret Egress Gallery In Toronto! Play here! </a>
+    <a href="/egret">Commit to a Task / Submit a Task! - Play Here! </a>
   </section>
   <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
   <div class="maintext en">
@@ -97,6 +97,22 @@
     <h2 class="en">Phase 6 - In Public Space</h2>
     <h2 class="fa">مرحله ۶ - در فضای عمومی </h2>
       <?php $args = array( 'post_type' => 'post', 'cat' => 7, 'order' => 'DCS', 'posts_per_page' => -1 );
+        query_posts( $args ); // hijack the main loop
+        while ( have_posts() ) : the_post();
+          ?>
+       <a class='toggleText' href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+
+         <?php
+        endwhile;
+        ?>
+        <?php
+        wp_reset_query();
+        ?> 
+    </section>
+    <section class="phases phaseSix" id="phasesFive">
+    <h2 class="en">Phase 7 - Exhibition at Egret Egress Gallery</h2>
+    <h2 class="fa">مرحله ۷ -  در گالری Egret Egress </h2>
+      <?php $args = array( 'post_type' => 'post', 'cat' => 8, 'order' => 'DCS', 'posts_per_page' => -1 );
         query_posts( $args ); // hijack the main loop
         while ( have_posts() ) : the_post();
           ?>
